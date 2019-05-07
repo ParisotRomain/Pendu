@@ -13,7 +13,7 @@ public class MotAleatoireFichier {
 			// On ouvre le fichier contenant la liste de mots
 			Scanner sc = new Scanner(fichier);
 
-			// On parcours tout le fichier pour conter le nombre de mots
+			// On parcours tout le fichier pour compter le nombre de mots
 			int nbrMots = 0;
 			while(sc.hasNext()) {
 				sc.next();
@@ -21,14 +21,15 @@ public class MotAleatoireFichier {
 			}
 			sc.close();
 
+			// Si on n'a pas trouv√© de mot dans le fichier le mot par d√©faut est "Hello"
 			if (nbrMots == 0)
 				return "Hello";
 			
-			// On choisit un indice alÈatoire
+			// On choisit un indice al√©atoire
 			Random rand = new Random();
 			int index = rand.nextInt(nbrMots);
 
-			// On va rÈcupÈrer le mot ‡ l'indice choisit
+			// On va r√©cup√®rer le mot √† l'indice choisi
 			sc = new Scanner(fichier);
 			for (int i = 0; i < index; i++) {
 				sc.next();
@@ -36,7 +37,7 @@ public class MotAleatoireFichier {
 			monMot = sc.next();
 			sc.close();
 
-			// On affiche le mot rÈcupÈrÈ
+			// On affiche le mot r√©cup√©r√©
 			return (monMot);
 
 		} catch (FileNotFoundException e) {
