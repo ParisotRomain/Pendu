@@ -36,15 +36,15 @@ public class Main {
 //		System.out.println(String.format("%"+(motATrouver.length()-1)/2+"s", " ") + "Mot" + String.format("%"+(motATrouver.length())/2+"s", " ") // les String.format sont pour centrer en fonction de la ltaille du mot à trouver
 //							+ "|        Lettres Jouées        | err");
 //		System.out.println(motAAfficher + "  |  " + strJouees + "  |  0");
-		System.out.println(" " + strJouees.substring( 0, 4) +   "");
-		System.out.println(" " + strJouees.substring( 4, 8) +   "");
-		System.out.println(" " + strJouees.substring( 8,12) +   "");
-		System.out.println(" " + strJouees.substring(12,16) +   "");
-		System.out.println(" " + strJouees.substring(16,20) +   "");
-		System.out.println(" " + strJouees.substring(20,24) +   "");
-		System.out.println(" " + strJouees.substring(24,26) + "  _________________");
+		System.out.println(" " + strJouees.substring( 0, 4) +   " |                          ");
+		System.out.println(" " + strJouees.substring( 4, 8) +   " |            v             ");
+		System.out.println(" " + strJouees.substring( 8,12) +   " |                   v  __  ");
+		System.out.println(" " + strJouees.substring(12,16) +   " |      V              ( ~) ");
+		System.out.println(" " + strJouees.substring(16,20) +   " |                    (_~__)");
+		System.out.println(" " + strJouees.substring(20,24) +   " |                      ||  ");
+		System.out.println(" " + strJouees.substring(24,26) + "   | wwwwwwwwwwwwwwwwwwwwwwwww");
 		System.out.println("");
-		System.out.println(String.format("%"+(22-motAAfficher.length())/2+"s", " ") + motAAfficher);
+		System.out.println(String.format("%"+(30-motAAfficher.length())/2+"s", " ") + "?  " + motAAfficher + "  ?");
 
 		Scanner sc = new Scanner(System.in);
 		Integer erreurs = 0;
@@ -88,91 +88,91 @@ public class Main {
 			// affichage
 			switch (erreurs) {
 			case 0 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "");
-				System.out.println(" " + strJouees.substring( 8,12) +   "");
-				System.out.println(" " + strJouees.substring(12,16) +   "");
-				System.out.println(" " + strJouees.substring(16,20) +   "");
-				System.out.println(" " + strJouees.substring(20,24) +   "");
-				System.out.println(" " + strJouees.substring(24,26) + "  _________________");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |                          ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |            v             ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |                   v  __  ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |      V              ( ~) ");
+				System.out.println(" " + strJouees.substring(16,20) +   " |                    (_~__)");
+				System.out.println(" " + strJouees.substring(20,24) +   " |                      ||  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | wwwwwwwwwwwwwwwwwwwwwwwww");
 				break;
 			case 1 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "");
-				System.out.println(" " + strJouees.substring( 8,12) +   "");
-				System.out.println(" " + strJouees.substring(12,16) +   "");
-				System.out.println(" " + strJouees.substring(16,20) +   "");
-				System.out.println(" " + strJouees.substring(20,24) +   "");
-				System.out.println(" " + strJouees.substring(24,26) + "  _==========______");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |                v         ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |        v            .    ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |                      __  ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |                     ( ~) ");
+				System.out.println(" " + strJouees.substring(16,20) +   " |                    (_~__)");
+				System.out.println(" " + strJouees.substring(20,24) +   " |                      ||  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | w==========wwwwwwwwwwwwww");
 				break;
 			case 2 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "     ||");
-				System.out.println(" " + strJouees.substring( 8,12) +   "     ||");
-				System.out.println(" " + strJouees.substring(12,16) +   "     ||");
-				System.out.println(" " + strJouees.substring(16,20) +   "     ||");
-				System.out.println(" " + strJouees.substring(20,24) +   "     ||");
-				System.out.println(" " + strJouees.substring(24,26) + "  _==========______");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |                          ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |      ||       v          ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |      ||              __  ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |      ||             ( ~) ");
+				System.out.println(" " + strJouees.substring(16,20) +   " |      ||            (_~__)");
+				System.out.println(" " + strJouees.substring(20,24) +   " |      ||              ||  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | _==========_wwwwwwwwwwwww");
 				break;
 			case 3 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "     || /");
-				System.out.println(" " + strJouees.substring( 8,12) +   "     ||/");
-				System.out.println(" " + strJouees.substring(12,16) +   "     ||");
-				System.out.println(" " + strJouees.substring(16,20) +   "    /||");
-				System.out.println(" " + strJouees.substring(20,24) +   "   //||");
-				System.out.println(" " + strJouees.substring(24,26) + "  _==========______");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |                          ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |      || /                ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |      ||/             __  ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |      ||             (__) ");
+				System.out.println(" " + strJouees.substring(16,20) +   " |     /||             ~||/ ");
+				System.out.println(" " + strJouees.substring(20,24) +   " |    //||              ||  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | _==========____wwwwwwwwww");
 				break;
 			case 4 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "     ,===========");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "     || /");
-				System.out.println(" " + strJouees.substring( 8,12) +   "     ||/");
-				System.out.println(" " + strJouees.substring(12,16) +   "     ||");
-				System.out.println(" " + strJouees.substring(16,20) +   "    /||");
-				System.out.println(" " + strJouees.substring(20,24) +   "   //||");
-				System.out.println(" " + strJouees.substring(24,26) + "  _==========______");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |      ,===========        ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |      || /                ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |      ||/                 ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |      ||              ::  ");
+				System.out.println(" " + strJouees.substring(16,20) +   " |     /||             ~||/ ");
+				System.out.println(" " + strJouees.substring(20,24) +   " |    //||              ||  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | _==========______wwwwwwww");
 				break;
 			case 5 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "     ,========Y==");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "     || /     |");
-				System.out.println(" " + strJouees.substring( 8,12) +   "     ||/");
-				System.out.println(" " + strJouees.substring(12,16) +   "     ||");
-				System.out.println(" " + strJouees.substring(16,20) +   "    /||");
-				System.out.println(" " + strJouees.substring(20,24) +   "   //||");
-				System.out.println(" " + strJouees.substring(24,26) + "  _==========______");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |      ,========Y==        ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |      || /     |          ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |      ||/                 ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |      ||                  ");
+				System.out.println(" " + strJouees.substring(16,20) +   " |     /||                  ");
+				System.out.println(" " + strJouees.substring(20,24) +   " |    //||                  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | _==========_______wwwwwww");
 				break;
 			case 6 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "     ,========Y==");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "     || /     |");
-				System.out.println(" " + strJouees.substring( 8,12) +   "     ||/      O");
-				System.out.println(" " + strJouees.substring(12,16) +   "     ||       |");
-				System.out.println(" " + strJouees.substring(16,20) +   "    /||");
-				System.out.println(" " + strJouees.substring(20,24) +   "   //||");
-				System.out.println(" " + strJouees.substring(24,26) + "  _==========______");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |      ,========Y==        ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |      || /     |          ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |      ||/      O          ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |      ||       |          ");
+				System.out.println(" " + strJouees.substring(16,20) +   " |     /||                  ");
+				System.out.println(" " + strJouees.substring(20,24) +   " |    //||                  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | _==========__________wwww");
 				break;
 			case 7 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "     ,========Y==");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "     || /     |");
-				System.out.println(" " + strJouees.substring( 8,12) +   "     ||/      O");
-				System.out.println(" " + strJouees.substring(12,16) +   "     ||      /|\\");
-				System.out.println(" " + strJouees.substring(16,20) +   "    /||");
-				System.out.println(" " + strJouees.substring(20,24) +   "   //||");
-				System.out.println(" " + strJouees.substring(24,26) + "  _==========______");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |      ,========Y==        ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |      || /     |          ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |      ||/      O          ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |      ||      /|\\         ");
+				System.out.println(" " + strJouees.substring(16,20) +   " |     /||                  ");
+				System.out.println(" " + strJouees.substring(20,24) +   " |    //||                  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | _==========______________");
 				break;
 			case 8 :
-				System.out.println(" " + strJouees.substring( 0, 4) +   "     ,========Y==");
-				System.out.println(" " + strJouees.substring( 4, 8) +   "     || /     |");
-				System.out.println(" " + strJouees.substring( 8,12) +   "     ||/      O");
-				System.out.println(" " + strJouees.substring(12,16) +   "     ||      /|\\");
-				System.out.println(" " + strJouees.substring(16,20) +   "    /||      /|");
-				System.out.println(" " + strJouees.substring(20,24) +   "   //||");
-				System.out.println(" " + strJouees.substring(24,26) + "  _==========______");
+				System.out.println(" " + strJouees.substring( 0, 4) +   " |      ,========Y==        ");
+				System.out.println(" " + strJouees.substring( 4, 8) +   " |   ~  || /     |     ~    ");
+				System.out.println(" " + strJouees.substring( 8,12) +   " |      ||/      O        ~ ");
+				System.out.println(" " + strJouees.substring(12,16) +   " |      ||   ~  /|\\         ");
+				System.out.println(" " + strJouees.substring(16,20) +   " | ~   /||      /|    ~     ");
+				System.out.println(" " + strJouees.substring(20,24) +   " |    //||  ~            ~  ");
+				System.out.println(" " + strJouees.substring(24,26) + "   | _==========______________");
 				break;
 			}
+			
 			System.out.println("");
 			//System.out.println(motAAfficher + "  |  " + strJouees + "  |  " + erreurs);
-			System.out.println(String.format("%"+(22-motAAfficher.length())/2+"s", " ") + motAAfficher);
-
+			System.out.println(String.format("%"+(30-motAAfficher.length())/2+"s", " ") + "?  " + motAAfficher + "  ?");
 		}
 		
 		// fin du game
@@ -192,11 +192,11 @@ public class Main {
 }
 
 /*
- *     ,========Y==
- *     || /     |
- *     ||/      O
- *     ||      /|\
- *    /||      /|
- *   //||
- * ==========
+ *  v   ,========Y==        
+ *      || /     |     v    
+ *      ||/      O      __  
+ *      ||      /|\    ( ~) 
+ *     /||      /|    (_~__)
+ *    //||              ||  
+ * w==========wwwwwwwwwwwwww
  */
