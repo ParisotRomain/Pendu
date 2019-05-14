@@ -3,15 +3,18 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class MotAleatoireFichier {
 	public static String getFrom(File fichier) {
 		
 		String monMot = null;
+		String delimiter = "\n";
 
 		try {
 			// On ouvre le fichier contenant la liste de mots
 			Scanner sc = new Scanner(fichier);
+			sc.useDelimiter(delimiter);
 
 			// On parcours tout le fichier pour compter le nombre de mots
 			int nbrMots = 0;
@@ -31,6 +34,7 @@ public class MotAleatoireFichier {
 
 			// On va récupèrer le mot à l'indice choisi
 			sc = new Scanner(fichier);
+			sc.useDelimiter(delimiter);
 			for (int i = 0; i < index; i++) {
 				sc.next();
 			}
